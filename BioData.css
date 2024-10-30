@@ -1,0 +1,61 @@
+*{
+    font-family: 'Poppins';
+}
+body{
+    background-color: bisque;
+}
+
+h1{
+    /* text-align: center; */
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 25px;
+
+    /* display: inline-block; */
+    padding: 20px ;
+    white-space: nowrap;
+}
+
+header{
+   /* text-align: center; */
+   font-size: larger;
+   text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    gap: 5vw;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(6, 159, 42);
+}
+nav ul li a:hover{
+    color: rgb(10, 61, 22);
+}
+
+table {
+    margin: auto; 
+    border-collapse: collapse;
+}
+
+table,th,td{
+    border: 1px solid black;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+.center-text{
+    text-align: center;
+}
+
+
+
+
